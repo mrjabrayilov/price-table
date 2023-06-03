@@ -1,0 +1,39 @@
+.pricing-table {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    
+}
+
+body {
+    background-color: #f0f0f0;
+    font: Arial, sans-serif;
+}
+
+.plan-features {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.plan-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#pricing-table1, #pricing-table2, #pricing-table3 {
+    float: left;
+}
